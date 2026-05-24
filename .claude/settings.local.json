@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"C:\\\\Users\\\\maria\\\\author-brand-architect\"; $env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; npx vite --port 5173 2>&1 | Select-Object -First 10)"
+    ]
+  }
+}

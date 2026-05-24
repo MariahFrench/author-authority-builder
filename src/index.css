@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #faf7f5;
+  color: #3F3F3F;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #faf7f5; }
+::-webkit-scrollbar-thumb { background: #b4887a; border-radius: 3px; }
