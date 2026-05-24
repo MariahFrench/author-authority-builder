@@ -56,8 +56,8 @@ const REVISE_OPTIONS = [
 function AthenaBubble({ text }: { text: string }) {
   return (
     <div className="flex items-start gap-3 mb-5 fade-in">
-      <div className="w-9 h-9 rounded-full bg-[#242e1c] flex items-center justify-center shrink-0 mt-0.5 shadow-sm overflow-hidden">
-        <img src="/logo.png" alt="Athena" className="w-full h-full object-contain p-1" />
+      <div className="w-9 h-9 rounded-full shrink-0 mt-0.5 shadow-sm overflow-hidden">
+        <img src="/athena.png" alt="Athena" className="w-full h-full object-cover" />
       </div>
       <div className="flex-1 bg-white rounded-2xl rounded-tl-sm px-5 py-4 shadow-sm border border-[#b4887a]/15">
         <p className="text-[#242e1c]/80 text-sm leading-relaxed">{text}</p>
